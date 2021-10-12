@@ -6,7 +6,7 @@ import Base.Filesystem.splitdir
 
 export load_libs, load_netlist, exec_cmd, get_var, tran, shooting, alter, envelope, DC, PZ
 
-PAN_LIB_PATH = ENV["JUPAN_SO"]
+PAN_LIB_PATH = join(split(dirname(pathof(@__MODULE__)), "/")[1:end-1], "/") * "/lib/jupan.so"
 VERBOSE = false
 
 
