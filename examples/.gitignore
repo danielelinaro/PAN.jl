@@ -1,5 +1,7 @@
 .ipynb_checkpoints
 .pan
-noisy_vanderpol.pan
+*.log
+*.raw
+vanderpol_with_noise.pan
 nport.pan
 vanderpol.pan
